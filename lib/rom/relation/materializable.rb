@@ -4,6 +4,8 @@ module ROM
     #
     # @api public
     module Materializable
+      include Enumerable
+
       # @abstract
       #
       # @api public
